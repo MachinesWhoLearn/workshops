@@ -17,7 +17,7 @@ My personal favorite reference. Accessible, yet advanced enough to give you the 
 https://www.cs.ubc.ca/~murphyk/MLbook/
 Probably the most well known textbook on machine learning. Recommended for mathematically mature readers.
 
-A list of books from related fields that Marina Meila (teaches STAT 391, STAT 535, and others) recommends for those that are "serious about Statistical Learning".
+A list of books from related fields that Marina Meila (teaches STAT 391, STAT 535, and others) recommends for those who are "serious about Statistical Learning".
 http://www.stat.washington.edu/courses/stat535/fall15/resources.html
 
 She also has a list of books on probability, for STAT 391 students. Although I'm still confused why she recommends the AstroML textbook.
@@ -31,48 +31,52 @@ http://www.stat.washington.edu/courses/stat535/fall15/handouts.html
 **Andrew Ng's (Stanford) machine learning course on Coursera**
 https://www.coursera.org/learn/machine-learning
 
+**THE LIBRARY**
+http://www.lib.washington.edu/
+
 And for the rest of this list, see the FAQ in r/MachineLearning. Particularly the "Programming Languages and Software" and "Datasets and Challenges..." sections. For more advanced ML implementations, it's worth mentioning Lua and it's corresponding ML library Torch, as well as the very recently open-sourced TensorFlow by Google.
 https://www.reddit.com/r/MachineLearning/wiki/index
 
 ##ML Related Courses at UW
 -------------------
-STAT 391 (Spring, non-majors okay) - Probability and Statistics for Computer Scientists. MATH/STAT 394 or 390 comes in incredibly handy for this class. MATH/STAT 395 doesn't hurt either. Prerequisite: minimum grade of 2.5 in MATH 126; 2.5 in MATH 308; either CSE 326, CSE 332, CSE 373, CSE 417, or CSE 421. 
+- STAT 391 (Spring, non-majors okay) - Probability and Statistics for Computer Scientists. MATH/STAT 394 or 390 comes in incredibly handy for this class. MATH/STAT 395 doesn't hurt either. Prerequisite: minimum grade of 2.5 in MATH 126; 2.5 in MATH 308; either CSE 326, CSE 332, CSE 373, CSE 417, or CSE 421. 
 
-CSE 446 (Winter/Spring, majors only) - Machine Learning. Prerequisite: CSE 332; either STAT 390, STAT 391, or CSE 312.
+- CSE 446 (Winter/Spring, majors only) - Machine Learning. Prerequisite: CSE 332; either STAT 390, STAT 391, or CSE 312.
 
-STAT 535 (Autumn, non-majors okay) - Foundations of Machine Learning. Prerequisite: "experience with programming in a high level language", but in reality you at least need to have taken STAT 391 or CSE 446. Intended for grads, but some undergrads take it as well.
+- STAT 535 (Autumn, non-majors okay) - Foundations of Machine Learning. Prerequisite: "experience with programming in a high level language", but in reality you need to have taken at least STAT 391 or CSE 446. Intended for grads and newly anointed Phd candidates, but some undergrads take it as well.
 
 Related courses that cover stuff you will need to know eventually anyways:
-MATH 124/125/126 - calculus
-MATH 308 - linear algebra
-CSE 142/143 - intro to programming
-MATH/STAT 394 or MATH/STAT 390 or CSE 312 (all majors only)- probability
-MATH 300 or CSE 311 (both majors only) - basically "Welcome to Actual Math"
-CSE 332 (majors) or CSE 373 (non-majors) - data structures or "Welcome to Actual Computer Science".
+- MATH 124/125/126 - calculus
+- MATH 308 - linear algebra
+- CSE 142/143 - intro to programming
+- MATH/STAT 394 or MATH/STAT 390 or CSE 312 (all majors only)- probability
+- MATH 300 or CSE 311 (both majors only) - basically "Welcome to Actual Math"
+- CSE 332 (majors) or CSE 373 (non-majors) - data structures or "Welcome to Actual Computer Science"
 
 Helpful but not necessary:
-CSE 415/473 Artificial Intelligence, offered by the CSE department in both majors and non-majors flavors.
-CSE 414/344 Databases, both majors and non-majors.
-MATH 461/462 Combinatorics (majors only), if you are interested in eventually learning about graphical probability models. 
+- CSE 415/473 Artificial Intelligence, offered by the CSE department in both majors and non-majors flavors
+- CSE 414/344 Databases, both majors and non-majors
+- MATH 461 Combinatorics and/or MATH/STAT 491 Stochastic Processes (majors only), if you are interested in eventually learning about graphical probability models
+- Being a Statistics or Computer Science major
 
 #Other Cool Stuff:
 
 ##ML and Video Games
 -------------------
 
-Neural network learns how to play Super Mario Bros. from simplified screen input.
 **MarI/O - Machine Learning for Video Games [5:58]**
 https://www.youtube.com/watch?v=qv6UVOQ0F44
+Neural network learns how to play Super Mario Bros. from simplified screen input.
 
 **Computer program that learns to play classic NES games [16:17]**
-https://www.youtube.com/watch?v=xOCurBYI_gY *Explanation ends and gameplay begins at [6:13]*
+https://www.youtube.com/watch?v=xOCurBYI_gY 
+*Explanation ends and gameplay begins at [6:13].*
 A more general program, which reads in previously recorded bytes of memory from a human "teacher" playing a video game, then attempts to find a sequence of those bytes which make its level in the game go up. (So all it is trying to do is make (specific) bytes in memory increase, it knows nothing about the game). 
 
 Notice how often the player gets stuck in local optima. This is a problem in optimization problems in general, but particularly in neural networks.
 
 **Google DeepMind's Deep Q-learning playing Atari Breakout [1:42]**
 https://www.youtube.com/watch?v=V1eYniJ0Rnk
-From Google Deepmind.
 
 ##ML and Music
 -------------------
