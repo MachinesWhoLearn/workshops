@@ -1,4 +1,4 @@
-# Resources
+# Machines Who Learn: Machine Learning Resources
 
 ## Textbooks
 
@@ -110,7 +110,7 @@ A more general program, which reads in previously recorded bytes of memory from 
 
 ## Artificial General Intelligence
 
-Artificial General Intelligence, which is defined as "the capacity of an engineered system to display the same rough sort of general intelligence as humans; or, display intelligence that is not tied to a highly specific set of tasks" [[Scholarpedia]((http://www.scholarpedia.org/article/Artificial_General_Intelligence)], depends heavily on the field on machine learning.
+Artificial General Intelligence, which is [defined as]((http://www.scholarpedia.org/article/Artificial_General_Intelligence)) "the capacity of an engineered system to display the same rough sort of general intelligence as humans; or, display intelligence that is not tied to a highly specific set of tasks", depends heavily on the field on machine learning.
 
 * [Scholarpedia overview of the field of Artificial General Intelligence](http://www.scholarpedia.org/article/Artificial_General_Intelligence)
 
@@ -118,7 +118,7 @@ Artificial General Intelligence, which is defined as "the capacity of an enginee
 
 * [A Formal Theory of Universal Intelligence](https://www.youtube.com/watch?v=F2bQ5TSB-cE), an introductory video by Dr. Marcus Hutter
 
-* [Machine Superintelligence](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf), the PhD thesis of Shane Legg, cofounder of Google DeepMind
+* [Machine Superintelligence](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf), the PhD thesis of Shane Legg, cofounder of [Google DeepMind](http://deepmind.com/)
 
 ## ML and "Practical" Stuff
 
