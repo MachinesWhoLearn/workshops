@@ -60,7 +60,7 @@ Reinforcement learning is a fascinating subfield of machine learning with connec
 
 * [Deep Learning](https://goodfeli.github.io/dlbook/), a very comprehensive in-progress textbook available online
 
-* [Convolutional Neural Networks for Visual Recognition]([http://cs231n.github.io/]), Berkeley online course notes
+* [Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/), Berkeley online course notes
 
 * [Juergen Schmidhuber](http://people.idsia.ch/~juergen/)'s website has many interesting resources
 
@@ -101,7 +101,7 @@ A more general program, which reads in previously recorded bytes of memory from 
 
 ## ML and Music
 
-* This material would more accurately fall under artificial intelligence, a superfield of machine learning, but it's beautiful nonetheless.
+This material would more accurately fall under artificial intelligence, a superfield of machine learning, but it's beautiful nonetheless.
 
 * [Emily Howell](https://www.youtube.com/watch?v=QEjdiE0AoCU), a computer program that composes music by listening to compositions by actual performers.
 
