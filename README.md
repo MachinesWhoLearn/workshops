@@ -1,4 +1,4 @@
-# Machines Who Learn: Machine Learning Resources
+# MWL: Machine Learning Resources
 
 ## Textbooks
 
@@ -15,121 +15,83 @@ Probably the most well known textbook on machine learning. Recommended for mathe
 
 * A [list of books](http://www.stat.washington.edu/courses/stat535/fall15/resources.html) from related fields that Marina Meila (teaches STAT 391, STAT 535, and others) recommends for those who are "serious about Statistical Learning".
 
-* She also has a [list of books on probability](http://www.stat.washington.edu/courses/stat391/spring15/books.html), for STAT 391 students. UW faculty member [Jake VanderPlas](http://staff.washington.edu/jakevdp/) is working on an O'Reilly book "Python Data Science Handbook". Some previews are [posted](https://www.oreilly.com/people/89c9c-jake-vanderplas).
+* Marina also has a [list of books on probability](http://www.stat.washington.edu/courses/stat391/spring15/books.html), for STAT 391 students. 
 
-* [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) is a short essay describing important things to know, from UW CSE professor Pedro Domingos
+* UW faculty member [Jake VanderPlas](http://staff.washington.edu/jakevdp/) is working on an O'Reilly book "Python Data Science Handbook". Some previews are [posted](https://www.oreilly.com/people/89c9c-jake-vanderplas).
 
 ## Software
 
-**It is useful to choose Python or R and learn their standard set of tools for machine learning.**
+**Either Python or R are both excellent languages to know for those getting started in machine learning. Lectures will initially be taught in R.**
 
-### Machine Learning in Python
+### Machine Learning for Python
 
-* Start by installing the [free Anaconda Python distribution](https://www.continuum.io/downloads), which will automatically install Python along with all of the machine learning and scientific computing libraries which you will need:
+* We recommend you install the [free Anaconda Python distribution](https://www.continuum.io/downloads), which will automatically install Python along with all of the machine learning and scientific computing libraries you need.
 
-* Next, you will want to learn how to use the following tools which are the foundation of the Python ecosystem for machine learning:
+* The following are indispensable tools for any type of data analysis in the Python environment:
 
-  - Git
-  - Jupyter Notebook
-  - NumPy
-  - matplotlib
-  - SciPy
-  - scikit-learn
-  - Pandas
+  - scikit-learn – Python's primary machine learning library
+  - NumPy – an optimized Python numerical library
+  - matplotlib – graphing and plots
+  - SciPy – domain specific scientific functions
+  - Pandas – data analytics
+  - Git – version control for software
+  - Jupyter Notebook – interactive computing
 
+* [This collection of online notebooks](https://github.com/jakevdp/2014_fall_ASTR599/tree/master/notebooks) created by UW faculty member [Jake VanderPlas](http://staff.washington.edu/jakevdp/) is an excellent resource for becoming familiar with the above development stack. [00_intro.ipynb](https://github.com/jakevdp/2014_fall_ASTR599/blob/master/notebooks/00_intro.ipynb) and [01_basic_training.ipynb](https://github.com/jakevdp/2014_fall_ASTR599/blob/master/notebooks/01_basic_training.ipynb) introduce the Python programming language. Subsequent notebooks cover the aforementioned list of tools.
 
-* An excellent resource for learning to use these tools is [this collection of online notebooks](https://github.com/jakevdp/2014_fall_ASTR599/tree/master/notebooks) created by UW faculty member [Jake VanderPlas](http://staff.washington.edu/jakevdp/). Start by reading [00_intro.ipynb](https://github.com/jakevdp/2014_fall_ASTR599/blob/master/notebooks/00_intro.ipynb) and [01_basic_training.ipynb](https://github.com/jakevdp/2014_fall_ASTR599/blob/master/notebooks/01_basic_training.ipynb) for an introduction to Python, and then read the subsequent notebooks that teach you how to use all of the tools mentioned above for doing machine learning using the scientific Python stack.
+### Machine Learning for R
 
-## Reinforcement Learning
+* [CRAN Task View: Machine Learning and Statistical Learning](https://cran.r-project.org/web/views/MachineLearning.html)
+
+## Subfields of Machine Learning
+
+### Reinforcement Learning
 
 Reinforcement learning is a fascinating subfield of machine learning with connections to artificial intelligence, control theory and behavioral psychology.
 
-* Begin by reading the [first chapter](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node6.html) of Sutton and Barto's classic book, "Reinforcement Learning: An Introduction". It's really an excellent book, fun to read, and available online in [PDF](https://www.dropbox.com/s/b3psxv2r0ccmf80/book2015oct.pdf) or [HTML](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html).
+* For an introduction to the field, read the [first chapter](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node6.html) of Sutton and Barto's classic book, "Reinforcement Learning: An Introduction". It's really an excellent book, fun to read, and available online in [PDF](https://www.dropbox.com/s/b3psxv2r0ccmf80/book2015oct.pdf) or [HTML](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html).
 
 * [Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/) online course notes from Berkeley
 
 * [Reinforcement Learning course videos and slides](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) from David Silver of Google DeepMind/University College London
 
-* The Berkeley AI course offers great introductory [online lectures](http://ai.berkeley.edu/lecture_videos.html) on reinforcement learning and a fun [PacMan](http://ai.berkeley.edu/reinforcement.html) reinforcement learning project, which will be familiar to those who took CSE 473 at UW.
+* The Berkeley AI course offers great introductory [online lectures](http://ai.berkeley.edu/lecture_videos.html) on reinforcement learning and a fun [PacMan](http://ai.berkeley.edu/reinforcement.html) reinforcement learning project, which will be familiar to those who took CSE 473 (Intro to Artificial Intelligence) at UW.
 
-## Deep Learning
+### Deep Learning
 
-* [Deep Learning](https://www.dropbox.com/s/fmc3e4ackcf74lo/2015-lecun.pdf): an excellent overview article published in Nature in 2015, written by three leaders of the field.
+The term "deep learning" most commonly refers to "neural nets with multiple hidden layers", and is currently an extremely active area of research.
 
-* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/), an online book
+* [Deep Learning](https://www.dropbox.com/s/fmc3e4ackcf74lo/2015-lecun.pdf): an excellent overview article published in Nature in 2015, written by three leaders in the field.
 
-* [Deep Learning](https://goodfeli.github.io/dlbook/), a very comprehensive in-progress textbook available online
+* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/), free e-book. 
 
-* [Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/), Berkeley online course notes
+* [Deep Learning](https://goodfeli.github.io/dlbook/), a comprehensive, in-progress textbook freely available online.
 
-* [Juergen Schmidhuber](http://people.idsia.ch/~juergen/)'s website has many interesting resources
+* [Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/), Berkeley online course notes.
 
-* [Deep Learning course videos and slides](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) by [Nando de Freitas](http://www.cs.ubc.ca/~nando/) of Google DeepMind/Oxford
+* [Juergen Schmidhuber](http://people.idsia.ch/~juergen/)'s website has many interesting resources.
 
-* [keras](http://keras.io/) is a powerful and easy to use deep learning library for Python that supports the popular TensorFlow and Theano backends
+* [Deep Learning course videos and slides](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) by [Nando de Freitas](http://www.cs.ubc.ca/~nando/) of Google DeepMind/Oxford.
 
-* [Torch](http://torch.ch/) is another commonly used deep learning framework
+* [Keras](http://keras.io/) is a powerful and easy to use deep learning library for Python that supports the popular [TensorFlow](https://www.tensorflow.org/) and [Theano](http://deeplearning.net/software/theano/) backends.
+
+* [Torch](http://torch.ch/) is another commonly used deep learning framework.
 
 ## Other Resources
 
-* [Lecture notes](http://www.stat.washington.edu/courses/stat535/fall15/handouts.html) for STAT 535 "Foundations of Machine Learning"
+* [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) is a short essay describing important things to know, from UW CSE professor Pedro Domingos.
 
-* Andrew Ng's (Stanford) [machine learning course on Coursera](https://class.coursera.org/machlearning-001/lecture)
+* [Lecture notes](http://www.stat.washington.edu/courses/stat535/fall15/handouts.html) for STAT 535 "Foundations of Machine Learning".
 
-* UW professor Pedro Domingos online [Machine Learning course](https://www.coursera.org/course/machlearning)
+* Andrew Ng's (Stanford) [machine learning course on Coursera](https://class.coursera.org/machlearning-001/lecture).
+
+* UW professor Pedro Domingos online [Machine Learning course](https://www.coursera.org/course/machlearning).
 
 * [THE LIBRARY](http://www.lib.washington.edu/)
 
-* And for the rest of the useful resources, see the FAQ in [r/MachineLearning](http://www.lib.washington.edu/). Particularly the "Programming Languages and Software" and "Datasets and Challenges..." sections.
+* The FAQ in [r/MachineLearning](http://www.lib.washington.edu/). 
 
-# Other Cool Stuff
-
-## ML and Video Games
-
-* [Google DeepMind's Deep Q-learning playing Atari Breakout [1:42]](https://www.youtube.com/watch?v=V1eYniJ0Rnk) You can read more about it in [Wired](http://www.wired.co.uk/news/archive/2015-02/25/google-deepmind-atari), read the excellent [academic paper](http://www.davidqiu.com:8888/research/nature14236.pdf) and even download an open source [implementation](https://github.com/spragunr/deep_q_rl).
-
-* [MarI/O - Machine Learning for Video Games [5:58]](https://www.youtube.com/watch?v=qv6UVOQ0F44)
-Neural network learns how to play Super Mario Bros. from simplified screen input.
-
-* [Computer program that learns to play classic NES games [16:17]](https://www.youtube.com/watch?v=xOCurBYI_gY)
-*Explanation ends and gameplay begins at [6:13].*
-A more general program, which reads in previously recorded bytes of memory from a human "teacher" playing a video game, then attempts to find a sequence of those bytes which make its level in the game go up. (So all it is trying to do is make (specific) bytes in memory increase, it knows nothing about the game). Notice how often the player gets stuck in local optima. This is a problem in optimization problems in general, but particularly in neural networks.
-
-## Computational Creativity
-
-* [Formal Theory of Fun & Creativity Explains Science, Art, Music, Humor](http://people.idsia.ch/~juergen/creativity.html) by Juergen Schmidhuber, a pioneer in deep learning and neural networks
-
-## ML and Music
-
-This material would more accurately fall under artificial intelligence, a superfield of machine learning, but it's beautiful nonetheless.
-
-* [Emily Howell](https://www.youtube.com/watch?v=QEjdiE0AoCU), a computer program that composes music by listening to compositions by actual performers.
-
-* EMI ["Experiments in Musical Intelligence"](https://www.youtube.com/watch?v=QEjdiE0AoCU) is another program by David Cope. Here is an eerily well composed symphony in the style of Mozart.
-
-
-## Artificial General Intelligence
-
-Artificial General Intelligence, which is [defined as]((http://www.scholarpedia.org/article/Artificial_General_Intelligence)) "the capacity of an engineered system to display the same rough sort of general intelligence as humans; or, display intelligence that is not tied to a highly specific set of tasks", depends heavily on the field on machine learning.
-
-* [Scholarpedia overview of the field of Artificial General Intelligence](http://www.scholarpedia.org/article/Artificial_General_Intelligence)
-
-* [The Hidden Pattern](http://www.goertzel.org/HiddenPattern_march_4_06.pdf) by [Dr. Ben Goertzel](http://wp.goertzel.org/), Chairman of the Artificial General Intelligence Society and OpenCog
-
-* [A Formal Theory of Universal Intelligence](https://www.youtube.com/watch?v=F2bQ5TSB-cE), an introductory video by Dr. Marcus Hutter
-
-* [Machine Superintelligence](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf), the PhD thesis of Shane Legg, cofounder of [Google DeepMind](http://deepmind.com/)
-
-## ML and "Practical" Stuff
-
-* [How Khan Academy is using Machine Learning to Assess Student Mastery](http://david-hu.com/2011/11/02/how-khan-academy-is-using-machine-learning-to-assess-student-mastery.html)
-
-* [How Companies Know Your Secrets](http://www.nytimes.com/2012/02/19/magazine/shopping-habits.html)
-The classic article on how Target found out a girl was pregnant before her father did.
-
-Other links will be posted as they pertain to lectures!
-
-# ML Related Courses at UW
+### ML Related Courses at UW
 
 - STAT 391 (Spring, non-majors okay) - Probability and Statistics for Computer Scientists. MATH/STAT 394 or 390 comes in incredibly handy for this class. MATH/STAT 395 doesn't hurt either. Prerequisite: minimum grade of 2.5 in MATH 126; 2.5 in MATH 308; either CSE 326, CSE 332, CSE 373, CSE 417, or CSE 421.
 
@@ -141,12 +103,59 @@ Related courses that cover stuff you will need to know eventually anyways:
 - MATH 124/125/126 - calculus
 - MATH 308 - linear algebra
 - CSE 142/143 - intro to programming
-- MATH/STAT 394 or MATH/STAT 390 or CSE 312 (all majors only)- probability
+- STAT 311 - intro statistics
+- MATH/STAT 394 or MATH/STAT 390 or CSE 312 or STAT 340 (all majors only) - probability
 - MATH 300 or CSE 311 (both majors only) - basically "Welcome to Actual Math"
-- CSE 332 (majors) or CSE 373 (non-majors) - data structures or "Welcome to Actual Computer Science"
 
 Helpful but not necessary:
+- CSE 332 (majors) or CSE 373 (non-majors) - data structures or "Welcome to Actual Computer Science"
 - CSE 415/473 Artificial Intelligence, offered by the CSE department in both majors and non-majors flavors
 - CSE 414/344 Databases, both majors and non-majors
-- MATH 461 Combinatorics and/or MATH/STAT 491 Stochastic Processes (majors only), if you are interested in eventually learning about graphical probability models
+- MATH/STAT 491 Stochastic Processes (majors only), if you are interested in eventually learning about graphical probability models
 - Being a Statistics, ACMS or Computer Science major
+
+## Other Cool Stuff
+
+### ML and Video Games
+
+* [Google DeepMind's Deep Q-learning playing Atari Breakout [1:42]](https://www.youtube.com/watch?v=V1eYniJ0Rnk) You can read more about it in [Wired](http://www.wired.co.uk/news/archive/2015-02/25/google-deepmind-atari), read the excellent [academic paper](http://www.davidqiu.com:8888/research/nature14236.pdf) and even download an open source [implementation](https://github.com/spragunr/deep_q_rl).
+
+* [MarI/O - Machine Learning for Video Games [5:58]](https://www.youtube.com/watch?v=qv6UVOQ0F44)
+Neural network learns how to play Super Mario Bros. from simplified screen input.
+
+* [Computer program that learns to play classic NES games [16:17]](https://www.youtube.com/watch?v=xOCurBYI_gY)
+*Explanation ends and gameplay begins at [6:13].*
+A more general program, which reads in previously recorded bytes of memory from a human "teacher" playing a video game, then attempts to find a sequence of those bytes which make its level in the game go up. (So all it is trying to do is make (specific) bytes in memory increase, it knows nothing about the game). Notice how often the player gets stuck in local optima. This is a problem in optimization problems in general, but particularly in neural networks.
+
+### Computational Creativity
+
+* [Formal Theory of Fun & Creativity Explains Science, Art, Music, Humor](http://people.idsia.ch/~juergen/creativity.html) by Juergen Schmidhuber, a pioneer in deep learning and neural networks
+
+### ML and Music
+
+This material would more accurately fall under artificial intelligence, a superfield of machine learning, but it's beautiful nonetheless.
+
+* [Emily Howell](https://www.youtube.com/watch?v=QEjdiE0AoCU), a computer program that composes music by listening to recordings of performances by humans.
+
+* EMI "Experiments in Musical Intelligence" is another program by David Cope. [Here](https://www.youtube.com/watch?v=QEjdiE0AoCU) is an eerily well composed symphony in the style of Mozart.
+
+### Artificial General Intelligence
+
+Artificial General Intelligence, which is [defined as]((http://www.scholarpedia.org/article/Artificial_General_Intelligence)) "the capacity of an engineered system to display the same rough sort of general intelligence as humans; or, display intelligence that is not tied to a highly specific set of tasks", depends heavily on the field on machine learning.
+
+* [Scholarpedia overview of the field of Artificial General Intelligence](http://www.scholarpedia.org/article/Artificial_General_Intelligence)
+
+* [The Hidden Pattern](http://www.goertzel.org/HiddenPattern_march_4_06.pdf) by [Dr. Ben Goertzel](http://wp.goertzel.org/), Chairman of the Artificial General Intelligence Society and OpenCog
+
+* [A Formal Theory of Universal Intelligence](https://www.youtube.com/watch?v=F2bQ5TSB-cE), an introductory video by Dr. Marcus Hutter
+
+* [Machine Superintelligence](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf), the PhD thesis of Shane Legg, cofounder of [Google DeepMind](http://deepmind.com/)
+
+### ML and "Practical" Stuff
+
+* [How Khan Academy is using Machine Learning to Assess Student Mastery](http://david-hu.com/2011/11/02/how-khan-academy-is-using-machine-learning-to-assess-student-mastery.html)
+
+* [How Companies Know Your Secrets](http://www.nytimes.com/2012/02/19/magazine/shopping-habits.html)
+The classic article on how Target found out a girl was pregnant before her father did.
+
+Other links will be posted as they pertain to lectures!
