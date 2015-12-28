@@ -1,6 +1,6 @@
 # Resources
 
-## Text Resources
+## Textbooks
 
 *The ISL and ESL textbooks are both FREE to download (legally!). See links below.*
 
@@ -19,9 +19,9 @@ Probably the most well known textbook on machine learning. Recommended for mathe
 
 * [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) is a short essay describing important things to know, from UW CSE professor Pedro Domingos
 
-## Software Resources
+## Software
 
-It is useful to choose Python or R and learn their standard set of tools for machine learning.
+**It is useful to choose Python or R and learn their standard set of tools for machine learning.**
 
 ### Machine Learning in Python
 
@@ -82,28 +82,6 @@ Reinforcement learning is a fascinating subfield of machine learning with connec
 
 * And for the rest of the useful resources, see the FAQ in [r/MachineLearning](http://www.lib.washington.edu/). Particularly the "Programming Languages and Software" and "Datasets and Challenges..." sections.
 
-## ML Related Courses at UW
-
-- STAT 391 (Spring, non-majors okay) - Probability and Statistics for Computer Scientists. MATH/STAT 394 or 390 comes in incredibly handy for this class. MATH/STAT 395 doesn't hurt either. Prerequisite: minimum grade of 2.5 in MATH 126; 2.5 in MATH 308; either CSE 326, CSE 332, CSE 373, CSE 417, or CSE 421.
-
-- CSE 446 (Winter/Spring, majors only) - Machine Learning. Prerequisite: CSE 332; either STAT 390, STAT 391, or CSE 312.
-
-- STAT 535 (Autumn, non-majors okay) - Foundations of Machine Learning. Prerequisite: "experience with programming in a high level language", but in reality you need to have taken at least STAT 391 or CSE 446. Intended for grads and newly anointed Phd candidates, but some undergrads take it as well.
-
-Related courses that cover stuff you will need to know eventually anyways:
-- MATH 124/125/126 - calculus
-- MATH 308 - linear algebra
-- CSE 142/143 - intro to programming
-- MATH/STAT 394 or MATH/STAT 390 or CSE 312 (all majors only)- probability
-- MATH 300 or CSE 311 (both majors only) - basically "Welcome to Actual Math"
-- CSE 332 (majors) or CSE 373 (non-majors) - data structures or "Welcome to Actual Computer Science"
-
-Helpful but not necessary:
-- CSE 415/473 Artificial Intelligence, offered by the CSE department in both majors and non-majors flavors
-- CSE 414/344 Databases, both majors and non-majors
-- MATH 461 Combinatorics and/or MATH/STAT 491 Stochastic Processes (majors only), if you are interested in eventually learning about graphical probability models
-- Being a Statistics, ACMS or Computer Science major
-
 # Other Cool Stuff
 
 ## ML and Video Games
@@ -150,3 +128,25 @@ Artificial General Intelligence, which is defined as "the capacity of an enginee
 The classic article on how Target found out a girl was pregnant before her father did.
 
 Other links will be posted as they pertain to lectures!
+
+# ML Related Courses at UW
+
+- STAT 391 (Spring, non-majors okay) - Probability and Statistics for Computer Scientists. MATH/STAT 394 or 390 comes in incredibly handy for this class. MATH/STAT 395 doesn't hurt either. Prerequisite: minimum grade of 2.5 in MATH 126; 2.5 in MATH 308; either CSE 326, CSE 332, CSE 373, CSE 417, or CSE 421.
+
+- CSE 446 (Winter/Spring, majors only) - Machine Learning. Prerequisite: CSE 332; either STAT 390, STAT 391, or CSE 312.
+
+- STAT 535 (Autumn, non-majors okay) - Foundations of Machine Learning. Prerequisite: "experience with programming in a high level language", but in reality you need to have taken at least STAT 391 or CSE 446. Intended for grads and newly anointed Phd candidates, but some undergrads take it as well.
+
+Related courses that cover stuff you will need to know eventually anyways:
+- MATH 124/125/126 - calculus
+- MATH 308 - linear algebra
+- CSE 142/143 - intro to programming
+- MATH/STAT 394 or MATH/STAT 390 or CSE 312 (all majors only)- probability
+- MATH 300 or CSE 311 (both majors only) - basically "Welcome to Actual Math"
+- CSE 332 (majors) or CSE 373 (non-majors) - data structures or "Welcome to Actual Computer Science"
+
+Helpful but not necessary:
+- CSE 415/473 Artificial Intelligence, offered by the CSE department in both majors and non-majors flavors
+- CSE 414/344 Databases, both majors and non-majors
+- MATH 461 Combinatorics and/or MATH/STAT 491 Stochastic Processes (majors only), if you are interested in eventually learning about graphical probability models
+- Being a Statistics, ACMS or Computer Science major
