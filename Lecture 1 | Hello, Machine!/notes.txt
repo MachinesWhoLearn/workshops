@@ -1,0 +1,43 @@
+MWL Lecture 1 Notes
+Hello, Machine!
+
+1. Administrative
+    - Github
+        > lectures and competition repository
+        > can you clone?
+    - Facebook
+    - When should we meet?
+    - MATH 498. Math Sciences Seminar. Marina Meila teaches it. Should be awesome.
+        > Ask me for my spot
+        > Th 12:30-1:50
+
+2. What is Machine Learning?
+    - Teaching (programming) a machine to derive patterns from data.
+    - In general, there are three types of tasks we may ask our machine to perform:
+        1. Supervised Learning - 'labeled' data
+            > Classification
+            > Regression
+        2. Unsupervised Learning - 'unlabeled' data
+            > Cluster Analysis
+            > Other fancy things, like PCA
+        3. Reinforcement Learning - 'dynamic' data, or learning by doing (like 
+            driving a car, playing chess against an opponent, etc.)
+    - For the first few lectures at least, we will only talk about supervised learning.
+
+3. Supervised Learning
+    - We are given an n-dimensional feature vector, and its corresponding label.
+        > In the case of classification, our label exists within some
+            predefined finite set of objects.
+        > In the case of regression, our label (usually) exists in the reals.
+        > These aren't entirely mutually exclusive tasks. (Why not?)
+    - Our goal: derive a statistical model from our labeled data, so that we may
+        predict the label of (unlabeled) future observations.
+    - First we must choose a model, then we must optimize the parameters
+        of our model (also called "fitting" a model, more on this later).
+
+4. Hello, Machine!
+    - helloMachine.r 
+
+Recommended Readings:
+    - http://www.r2d3.us/visual-intro-to-machine-learning-part-1/ (10 mins)
+    - https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf (20-40 mins)

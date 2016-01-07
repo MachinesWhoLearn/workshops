@@ -1,0 +1,18 @@
+MWL Lecture 2 Notes
+Trees
+
+1. Decision Trees
+    - Initially, all the data exists in the root node.
+    - We then make axis perpindicular splits to seperate the classes.
+    - The rest of the tree can be built recursively in the same fashion.
+    - When a potential node split fails to provide enough "utility", the splitting stops
+        and that node becomes a leaf node.
+    - The "class" of a leaf node is determined by a majority vote of its members.
+    - Can be used for multi-way classification, but we will examine the binary
+        classification case.
+    - Why don't we use k-ary trees, k >= 3, instead of binary trees?
+        (Hint: What could a k-ary tree do that a binary tree couldn't?)
+    - trees.r
+
+2. Tree Ensembles
+    - treeEnsembles.r
