@@ -82,8 +82,7 @@ functions. For more info see [ESL 10].
 library("adabag")
 boost <- boosting(spam ~ ., trainData, mfinal=100) # 100 boosted trees
 boostPredictions <- predict(boost, testData)
-boostResults <- table(boost$class == testData$spam) / length(boost$class)
-boostResults # (approx.) TRUE: 0.945, FALSE: 0.055
+boostPredictions$error # proportion incorrect
 
 "
 Boosting is a powerful idea, and we will generalize it to other predictors later.
