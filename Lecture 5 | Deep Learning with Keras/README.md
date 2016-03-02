@@ -4,11 +4,19 @@ We will assume you are working in a Linux-like environment (includes OS X).
 
 ## On Your Own Computer
 
-We highly recommend installing the [Anaconda Python distribution](https://www.continuum.io/downloads). This will install many commonly used (and not so commonly used, but useful) Python libraries on your machine, in addition to your favorite version of Python (usually 2.7 or 3.5), iPython, Jupyter Notebook, etc.
+### Install Dependencies
+We highly recommend installing the [Anaconda Python distribution](https://www.continuum.io/downloads). This will install many commonly used (and not so commonly used, but useful) Python libraries on your machine, in addition to your favorite version of Python (usually 2.7 or 3.5), IPython, NumPy, scikit-learn, Jupyter Notebook, etc.
 
 If you are very confident in your system administration skills, you may install the dependencies from scratch then run the code below instead.
 
-Once you have pip and the rest of the Keras dependencies (comes with the Anaconda Python distro above) open a terminal and type
+### Install Theano
+Keras requires the bleeding edge version of Theano (or TensorFlow, if you prefer and/or know how).
+```
+$ sudo pip install git+git://github.com/Theano/Theano.git
+```
+
+### Install Keras
+Once you have installed the Keras dependencies (by installing Anaconda and Theano), open a terminal and type
 ```
 $ sudo pip install Keras
 ```
@@ -19,15 +27,11 @@ Or if you like bleeding edge versions
 $ sudo pip install git+git://github.com/fchollet/keras.git
 ```
 
-We recommend that you install the bleeding edge version of Theano (or TensorFlow, if you prefer and/or know how).
-```
-$ sudo pip install git+git://github.com/Theano/Theano.git
-```
-
+### Start using Keras
 After that, you should be ready to go! Set up a Jupyter Notebook or just call
 ```
 $ ipython
-Python 2.7.3 (default, Jun 22 2015, 19:33:41) 
+Python 2.7.3 (default, Jun 22 2015, 19:33:41)
 Type "copyright", "credits" or "license" for more information.
 
 IPython 4.1.1 -- An enhanced Interactive Python.
@@ -36,7 +40,7 @@ IPython 4.1.1 -- An enhanced Interactive Python.
 help      -> Python's own help system.
 object?   -> Details about 'object', use 'object??' for extra details.
 
-In [1]: from Keras.models import Sequential
+In [1]: from keras.models import Sequential
 ```
 And you're on your way.
 
