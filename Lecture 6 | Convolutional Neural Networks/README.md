@@ -6,29 +6,27 @@ There are two ways to rent instances from AWS EC2. On-Demand instances cost more
 
 ## On-Demand Instances
 
-It's as easy as 1, 2, ..., 3*7.
+It's as easy as 1, 2, ..., 20.
 
 1. Sign in using the information you received when you requested an account (Should include temporary password and login URL).
 2. Follow the instructions about setting up a permanent password. You will land on the AWS Dashboard. Click on the EC2 service (should be one of the first icons).
 3. Make sure you are in the us-east-1 (N. Virginia) region. (This region has the cheapest spot instances, as well as the AMI we'll be using).
 4. Click 'Launch Instance'.
 5. Select 'Community AMIs'.
-6. Search for ami-5f789e32 and select it. If you cannot find this AMI, just search for "cudnn" and select an AMI that looks modern (Ubuntu 14.04+).
+6. Search for ami-027a4e6a and select it. If you cannot find this AMI, just search for "cudnn" and select an AMI that looks like it has the things you need (Keras, Anaconda, ...).
 7. For "instance type", select g2.2xlarge (under "type").
-8. Click "Next: Add Storage" at the bottom-right of the page.
-9. Make sure the size of your Root Volume to 25GB. For some reason Amazon has a minimum root device size for different types of instances.
-10. Click "Review and Launch" at the bottom of the page.
-11. Click "Launch" near the bottom of the page.
-12. Select "Create a new key pair" from the dropdown menu. (Or choose an existing one, if you already have one).
-13. Name your key pair and download the private .pem file. Keep it somewhere where you can find it later. 
-14. In terminal, go to where you downloaded your .pem file and type "chmod 400 [yoursecretkey.pem]". You only have to do this once, whenever you create a new key.
-15. Back in the browser, click "Launch Instances".
-16. Go to your EC2 dashboard.
-17. Click "Running Instances".
-18. Refresh the module or page periodically until your instance is in a running state.
-19. Select the instance and click "Connect".
-20. Follow the instructions in the pop-up. (Make sure you're in the same directory as your .pem file!).
-21. Done! Hopefully you are connected to your EC2 instance now.
+9. Click "Review and Launch" at the bottom of the page.
+10. Ignore the scary warnings. Click "Launch" near the bottom of the page.
+11. Select "Create a new key pair" from the dropdown menu. (Or choose an existing one, if you already have one).
+12. Name your key pair and download the private .pem file. 
+13. In terminal, go to where you downloaded your .pem file and type "chmod 400 [yoursecretkey.pem]". You only have to do this once, whenever you create a new key.
+14. Back in the browser, click "Launch Instances".
+15. Go to your EC2 dashboard.
+16. Click "Running Instances".
+17. Refresh the module or page periodically until your instance is in a running state.
+18. Select the instance and click "Connect".
+19. Follow the instructions in the pop-up. (Make sure you're in the same directory as your .pem file if you're copy-pasting their ssh code!).
+20. Done! Hopefully you are connected to your EC2 instance now.
 
 ## Spot Instances
 
