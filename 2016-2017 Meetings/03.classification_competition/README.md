@@ -11,5 +11,5 @@ notebook at the aptly named `starter_template.ipynb`.
 
 Once you are happy with your classifier, you can "dump" it into a pickled file
 using `joblib.dump()`. Please name your pickled model `[team-name].pkl` and send it
-as an attachement to mwluw@uw.edu. You can pick your team name :smile:. Good
+as an attachment to <mwluw@uw.edu>. You can pick your team name :smile:. Good
 luck!
