@@ -3,7 +3,7 @@
 You have 50 minutes to build a classifier to detect email spam. The training
 data is pickled in `spam_train.pkl`. You can use `sklearn.externals.joblib` to
 load it, as shown
-[http://scikit-learn.org/stable/modules/model_persistence.html](here). It is
+[here](http://scikit-learn.org/stable/modules/model_persistence.html). It is
 stored in the same kind of object as returned by `load_digits` - i.e., an object
 with attributes `data`, which contains the input data, and `target`, which
 contains the labels. There is a starter template in the form of a jupyter
