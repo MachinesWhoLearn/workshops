@@ -64,6 +64,6 @@ def get_all_tweets(screen_name):
 if __name__ == '__main__':
     # pass in the username of the account you want to download
     if len(sys.argv) != 2:
-        raise ValueError(
-            "Usage: python get_data.py <account_username. Wrong number of arguments received.")
+        raise ValueError("Usage: python get_data.py <account_username>. "
+                         "Wrong number of arguments received.")
     get_all_tweets(sys.argv[1])
