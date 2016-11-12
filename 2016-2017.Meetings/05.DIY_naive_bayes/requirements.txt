@@ -1,1 +1,2 @@
 tweepy (3.5.0)
+scikit-learn (0.18)
