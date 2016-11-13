@@ -12,11 +12,6 @@ consumer_secret = ""
 access_key = ""
 access_secret = ""
 
-consumer_key = "u0UfympH3d5TSx0PwEsRYkx9E"
-consumer_secret = "lnIKtKKOAPVnmOaNDzMlpqNoTyE0qxTjNIVOwekep4ATbkJmZY"
-access_key = "2735117372-DuWhmkhegmH1aZQMAVCBgeygcZSct1RiQ7EEOWk"
-access_secret = "uZ7wHzdpLpIwiSTrheqXHQVY2RWkq1Es89PaZt7GNckS0"
-
 def get_all_tweets(screen_name):
     # Twitter only allows access to a users most recent 3240 tweets with this
     # method
