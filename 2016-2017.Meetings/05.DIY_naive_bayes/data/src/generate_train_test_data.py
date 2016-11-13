@@ -64,5 +64,8 @@ def sanitize_text(tweet_str):
     return tweet_str
 
 if __name__ == '__main__':
-    generate_train_test_data("../raw_tweets/HillaryClinton_tweets.csv",
-                             "../raw_tweets/realDonaldTrump_tweets.csv")
+    if len(sys.argv) != 3:
+        raise ValueError("Usage: python generate_train_test_data.py "
+                         "<file0_path> <file1_path>. "
+                         "Wrong number of arguments received.")
+    generate_train_test_data(sys.argv[1], sys.argv[2])
