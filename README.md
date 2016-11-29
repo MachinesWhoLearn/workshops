@@ -21,22 +21,22 @@ Probably the most well known textbook on machine learning. Recommended for mathe
 
 ## Software
 
-**Either Python or R are both excellent languages to know for those getting started in machine learning. Lectures will initially be taught in R.**
+**Either Python or R are both excellent languages to know for those getting started in machine learning. Lectures will be taught in Python.**
 
 ### Machine Learning for Python
 
 * We recommend you install the [free Anaconda Python distribution](https://www.continuum.io/downloads), which will automatically install Python along with all of the machine learning and scientific computing libraries you need.
 
-* It's a good idea to learn Python's syntax, here are some resources we've used and recommend for learning 'Python for Data Science':
+* Here are some resources for getting started with both the Python language in general and Python for data science specifically:
   
   - [CodeAcademy](https://www.codecademy.com/learn/python)
-  - [PyData Tutorial](https://www.youtube.com/watch?v=SWjnth2_JRY) and associated [notebook](https://github.com/gumption/Python_for_Data_Science/blob/master/3_Python_Basic_Concepts.ipynb)
+  - [Python for Data Science Tutorial @ PyData Seattle 2015](https://www.youtube.com/watch?v=SWjnth2_JRY) and associated [notebook](https://github.com/gumption/Python_for_Data_Science/blob/master/3_Python_Basic_Concepts.ipynb)
   - [Official Python tutorial](https://docs.python.org/3/tutorial/)
 
 * The following are indispensable tools for any type of data analysis in the Python environment:
 
   - scikit-learn – Python's primary machine learning library
-  - NumPy – an optimized Python numerical library, NumPy quickstart can be found [here](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
+  - NumPy – an optimized Python numerical library. A quick intro to NumPy can be found [here](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
   - matplotlib – graphing and plots
   - SciPy – domain specific scientific functions
   - Pandas – data analytics
