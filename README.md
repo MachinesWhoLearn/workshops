@@ -17,11 +17,11 @@ Probably the most well known textbook on machine learning. Recommended for mathe
 
 * Marina also has a [list of books on probability](http://www.stat.washington.edu/courses/stat391/spring15/books.html), for STAT 391 students. 
 
-* UW faculty member [Jake VanderPlas](http://staff.washington.edu/jakevdp/) is the author of O'Reilly's "Python Data Science Handbook". All notebooks and resources used in the book are [posted](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks).
+* UW faculty member [Jake VanderPlas](http://staff.washington.edu/jakevdp/) is the author of O'Reilly's [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do). All notebooks and resources used in the book are [posted](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks).
 
 ## Software
 
-**Lectures will be taught in Python.**
+**Q: Should I use Python or R? A: It depends on what you're doing, both langauges have their strengths; R is arguably better for Statistical Modeling, but for general machine learning/data science Python has a variety of robust libraries all at different levels of abstraction. Lectures will be taught in Python.**
 
 ### Machine Learning for Python
 
@@ -29,7 +29,7 @@ Probably the most well known textbook on machine learning. Recommended for mathe
 
 * Here are some resources for getting started with both the Python language in general and Python for data science specifically:
   
-  - [CodeAcademy](https://www.codecademy.com/learn/python)
+  - [codeacademy](https://www.codecademy.com/learn/python)
   - [Python for Data Science Tutorial @ PyData Seattle 2015](https://www.youtube.com/watch?v=SWjnth2_JRY) and associated [notebook](https://github.com/gumption/Python_for_Data_Science/blob/master/3_Python_Basic_Concepts.ipynb)
   - [Official Python tutorial](https://docs.python.org/3/tutorial/)
 
