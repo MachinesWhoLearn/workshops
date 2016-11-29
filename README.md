@@ -21,7 +21,7 @@ Probably the most well known textbook on machine learning. Recommended for mathe
 
 ## Software
 
-**Either Python or R are both excellent languages to know for those getting started in machine learning. Lectures will be taught in Python.**
+**Lectures will be taught in Python.**
 
 ### Machine Learning for Python
 
