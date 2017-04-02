@@ -10,3 +10,5 @@ keras
 # Tensorflow, for running Keras. If you want to use gpu-accelerated tensorflow,
 # uninstall tensorflow and install tensorflow-gpu
 tensorflow
+
+# jupyter, for running the notebook
