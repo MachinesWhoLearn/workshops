@@ -1,0 +1,7 @@
+# The following packages are required for running the data preprocessing notebook.
+
+# jupyter notebook
+jupyter
+
+# SpaCy, a set of NLP tools
+spacy
