@@ -1,6 +1,6 @@
 # Introduction to Tensorflow
 
-This folder contains the materials for a tutorial on Keras / Keras for NLP,
+This folder contains the materials for a tutorial on Tensorflow,
 presented at the Machines Who Learn meeting on May 8, 2017 by
 [Nelson Liu](https://github.com/nelson-liu).
 
