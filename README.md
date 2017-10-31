@@ -7,7 +7,7 @@
 * [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
 An excellent textbook intended for students in the non-mathematical sciences. Also useful for the R examples. Coauthored by UW's very own Daniela Witten.
 
-* [Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/)
+* [Elements of Statistical Learning](http://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 My personal favorite reference. Accessible, yet advanced enough to give you the computational and mathematical reasoning behind many models.
 
 * [Machine Learning (A Probabilistic Perspective)](https://www.cs.ubc.ca/~murphyk/MLbook/)
